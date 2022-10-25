@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B4123DB2716FCCF002C64FA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4123DA2716FCCF002C64FA /* Router.swift */; };
+		1B5BB01628F35E7700BB5859 /* One.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1B5BB01528F35E7700BB5859 /* One.mp4 */; };
+		1B6DDAD52708802A009C9E77 /* AppUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6DDAD42708802A009C9E77 /* AppUrl.swift */; };
+		1B7A38B6271E1C6B004AEC19 /* AzkariRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A38B5271E1C6B004AEC19 /* AzkariRouter.swift */; };
+		1B7A38BA271E2245004AEC19 /* PresenterZekr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A38B9271E2245004AEC19 /* PresenterZekr.swift */; };
+		1B7A6D96270C956500341892 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A6D95270C956500341892 /* extension.swift */; };
+		1BA154C927047D32002993DA /* ChooseAzkarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA154C827047D32002993DA /* ChooseAzkarType.swift */; };
+		1BA154CD27047FB7002993DA /* AzkarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA154CB27047FB7002993DA /* AzkarTableViewCell.swift */; };
+		1BA154CE27047FB7002993DA /* AzkarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA154CC27047FB7002993DA /* AzkarTableViewCell.xib */; };
+		1BE21EE427044C4D00038AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE21EE327044C4D00038AF3 /* AppDelegate.swift */; };
+		1BE21EE627044C4D00038AF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE21EE527044C4D00038AF3 /* SceneDelegate.swift */; };
+		1BE21EE827044C4D00038AF3 /* AzkariVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE21EE727044C4D00038AF3 /* AzkariVc.swift */; };
+		1BE21EEB27044C4D00038AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE21EE927044C4D00038AF3 /* Main.storyboard */; };
+		1BE21EED27044C4E00038AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE21EEC27044C4E00038AF3 /* Assets.xcassets */; };
+		1BE21EF027044C4E00038AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE21EEE27044C4E00038AF3 /* LaunchScreen.storyboard */; };
+		1BE21F00270455F600038AF3 /* Azkari_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE21EFF270455F600038AF3 /* Azkari_Model.swift */; };
+		1BE21F0C2704678F00038AF3 /* interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE21F0B2704678F00038AF3 /* interactor.swift */; };
+		1BE21F1127046A0900038AF3 /* PresenterAzkari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE21F1027046A0900038AF3 /* PresenterAzkari.swift */; };
+		546DD5B48902E260D1A91144 /* Pods_Azkari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6259EF89294722D261D66C /* Pods_Azkari.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		165C1252596A10CA31AD1734 /* Pods-Azkari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Azkari.release.xcconfig"; path = "Target Support Files/Pods-Azkari/Pods-Azkari.release.xcconfig"; sourceTree = "<group>"; };
+		1B4123DA2716FCCF002C64FA /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		1B5BB01528F35E7700BB5859 /* One.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = One.mp4; sourceTree = "<group>"; };
+		1B6DDAD42708802A009C9E77 /* AppUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUrl.swift; sourceTree = "<group>"; };
+		1B7A38B5271E1C6B004AEC19 /* AzkariRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkariRouter.swift; sourceTree = "<group>"; };
+		1B7A38B9271E2245004AEC19 /* PresenterZekr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterZekr.swift; sourceTree = "<group>"; };
+		1B7A6D95270C956500341892 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		1BA154C827047D32002993DA /* ChooseAzkarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAzkarType.swift; sourceTree = "<group>"; };
+		1BA154CB27047FB7002993DA /* AzkarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarTableViewCell.swift; sourceTree = "<group>"; };
+		1BA154CC27047FB7002993DA /* AzkarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AzkarTableViewCell.xib; sourceTree = "<group>"; };
+		1BE21EE027044C4D00038AF3 /* Azkari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azkari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE21EE327044C4D00038AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BE21EE527044C4D00038AF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BE21EE727044C4D00038AF3 /* AzkariVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkariVc.swift; sourceTree = "<group>"; };
+		1BE21EEA27044C4D00038AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BE21EEC27044C4E00038AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BE21EEF27044C4E00038AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BE21EF127044C4E00038AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE21EFF270455F600038AF3 /* Azkari_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azkari_Model.swift; sourceTree = "<group>"; };
+		1BE21F0B2704678F00038AF3 /* interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interactor.swift; sourceTree = "<group>"; };
+		1BE21F1027046A0900038AF3 /* PresenterAzkari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterAzkari.swift; sourceTree = "<group>"; };
+		8E6259EF89294722D261D66C /* Pods_Azkari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Azkari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B0B738603C4843321D08BE /* Pods-Azkari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Azkari.debug.xcconfig"; path = "Target Support Files/Pods-Azkari/Pods-Azkari.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE21EDD27044C4D00038AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546DD5B48902E260D1A91144 /* Pods_Azkari.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4123D92716FCBF002C64FA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1B4123DA2716FCCF002C64FA /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1B7A38B8271E222F004AEC19 /* PresenterZekr */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A38B9271E2245004AEC19 /* PresenterZekr.swift */,
+			);
+			path = PresenterZekr;
+			sourceTree = "<group>";
+		};
+		1B7A38BE271E2D7A004AEC19 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1BA154D027047FBB002993DA /* AzkarTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1BA154CB27047FB7002993DA /* AzkarTableViewCell.swift */,
+				1BA154CC27047FB7002993DA /* AzkarTableViewCell.xib */,
+			);
+			path = AzkarTableViewCell;
+			sourceTree = "<group>";
+		};
+		1BA30C1D271797CC002B4830 /* AzkariVcGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A38B8271E222F004AEC19 /* PresenterZekr */,
+				1BE21F0A270459D700038AF3 /* AzkariVc */,
+				1BE21F0E2704679300038AF3 /* Interactor */,
+				1BA154D027047FBB002993DA /* AzkarTableViewCell */,
+				1B7A38B5271E1C6B004AEC19 /* AzkariRouter.swift */,
+				1B7A38BE271E2D7A004AEC19 /* Router */,
+			);
+			path = AzkariVcGroup;
+			sourceTree = "<group>";
+		};
+		1BA30C1F271797EC002B4830 /* ChooseAzkariVC */ = {
+			isa = PBXGroup;
+			children = (
+				1BA154C827047D32002993DA /* ChooseAzkarType.swift */,
+			);
+			path = ChooseAzkariVC;
+			sourceTree = "<group>";
+		};
+		1BA30C212717981D002B4830 /* ChooseZekrGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21F1327046CF600038AF3 /* Presenter */,
+				1B4123D92716FCBF002C64FA /* Router */,
+				1BA30C1F271797EC002B4830 /* ChooseAzkariVC */,
+			);
+			path = ChooseZekrGroup;
+			sourceTree = "<group>";
+		};
+		1BE21ED727044C4D00038AF3 = {
+			isa = PBXGroup;
+			children = (
+				1BE21EE227044C4D00038AF3 /* Azkari */,
+				1BE21EE127044C4D00038AF3 /* Products */,
+				4188F0F15AE34A1C92C8DAD9 /* Pods */,
+				1CA56FC1D64B884C48492C03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BE21EE127044C4D00038AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21EE027044C4D00038AF3 /* Azkari.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE21EE227044C4D00038AF3 /* Azkari */ = {
+			isa = PBXGroup;
+			children = (
+				1B5BB01528F35E7700BB5859 /* One.mp4 */,
+				1BE21F02270457B400038AF3 /* Model */,
+				1BE21F04270457BF00038AF3 /* Core */,
+				1BE21F06270457DF00038AF3 /* Storyboard */,
+				1BE21F07270457F900038AF3 /* Resources */,
+				1BE21F092704582400038AF3 /* Scene */,
+				1BE21EF127044C4E00038AF3 /* Info.plist */,
+			);
+			path = Azkari;
+			sourceTree = "<group>";
+		};
+		1BE21F02270457B400038AF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21EFF270455F600038AF3 /* Azkari_Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BE21F04270457BF00038AF3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21EE327044C4D00038AF3 /* AppDelegate.swift */,
+				1BE21EE527044C4D00038AF3 /* SceneDelegate.swift */,
+				1B6DDAD42708802A009C9E77 /* AppUrl.swift */,
+				1B7A6D95270C956500341892 /* extension.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1BE21F06270457DF00038AF3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21EE927044C4D00038AF3 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1BE21F07270457F900038AF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21EEC27044C4E00038AF3 /* Assets.xcassets */,
+				1BE21EEE27044C4E00038AF3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BE21F092704582400038AF3 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1BA30C212717981D002B4830 /* ChooseZekrGroup */,
+				1BA30C1D271797CC002B4830 /* AzkariVcGroup */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		1BE21F0A270459D700038AF3 /* AzkariVc */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21EE727044C4D00038AF3 /* AzkariVc.swift */,
+			);
+			path = AzkariVc;
+			sourceTree = "<group>";
+		};
+		1BE21F0E2704679300038AF3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21F0B2704678F00038AF3 /* interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BE21F1327046CF600038AF3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BE21F1027046A0900038AF3 /* PresenterAzkari.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1CA56FC1D64B884C48492C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E6259EF89294722D261D66C /* Pods_Azkari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4188F0F15AE34A1C92C8DAD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0B0B738603C4843321D08BE /* Pods-Azkari.debug.xcconfig */,
+				165C1252596A10CA31AD1734 /* Pods-Azkari.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE21EDF27044C4D00038AF3 /* Azkari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE21EF427044C4E00038AF3 /* Build configuration list for PBXNativeTarget "Azkari" */;
+			buildPhases = (
+				9B23F9BEB4851A1F00B7F619 /* [CP] Check Pods Manifest.lock */,
+				1BE21EDC27044C4D00038AF3 /* Sources */,
+				1BE21EDD27044C4D00038AF3 /* Frameworks */,
+				1BE21EDE27044C4D00038AF3 /* Resources */,
+				DCA34C358365816B9448B39C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Azkari;
+			productName = Azkari;
+			productReference = 1BE21EE027044C4D00038AF3 /* Azkari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE21ED827044C4D00038AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1BE21EDF27044C4D00038AF3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1BE21EDB27044C4D00038AF3 /* Build configuration list for PBXProject "Azkari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BE21ED727044C4D00038AF3;
+			productRefGroup = 1BE21EE127044C4D00038AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE21EDF27044C4D00038AF3 /* Azkari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE21EDE27044C4D00038AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE21EF027044C4E00038AF3 /* LaunchScreen.storyboard in Resources */,
+				1B5BB01628F35E7700BB5859 /* One.mp4 in Resources */,
+				1BE21EED27044C4E00038AF3 /* Assets.xcassets in Resources */,
+				1BE21EEB27044C4D00038AF3 /* Main.storyboard in Resources */,
+				1BA154CE27047FB7002993DA /* AzkarTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B23F9BEB4851A1F00B7F619 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Azkari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA34C358365816B9448B39C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Azkari/Pods-Azkari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Azkari/Pods-Azkari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Azkari/Pods-Azkari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE21EDC27044C4D00038AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7A38B6271E1C6B004AEC19 /* AzkariRouter.swift in Sources */,
+				1B4123DB2716FCCF002C64FA /* Router.swift in Sources */,
+				1BE21F1127046A0900038AF3 /* PresenterAzkari.swift in Sources */,
+				1BE21EE827044C4D00038AF3 /* AzkariVc.swift in Sources */,
+				1BE21EE427044C4D00038AF3 /* AppDelegate.swift in Sources */,
+				1B7A6D96270C956500341892 /* extension.swift in Sources */,
+				1B6DDAD52708802A009C9E77 /* AppUrl.swift in Sources */,
+				1B7A38BA271E2245004AEC19 /* PresenterZekr.swift in Sources */,
+				1BA154C927047D32002993DA /* ChooseAzkarType.swift in Sources */,
+				1BE21F0C2704678F00038AF3 /* interactor.swift in Sources */,
+				1BE21EE627044C4D00038AF3 /* SceneDelegate.swift in Sources */,
+				1BE21F00270455F600038AF3 /* Azkari_Model.swift in Sources */,
+				1BA154CD27047FB7002993DA /* AzkarTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BE21EE927044C4D00038AF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE21EEA27044C4D00038AF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BE21EEE27044C4E00038AF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE21EEF27044C4E00038AF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE21EF227044C4E00038AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BE21EF327044C4E00038AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BE21EF527044C4E00038AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B0B738603C4843321D08BE /* Pods-Azkari.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Azkari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deepo.Azkari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BE21EF627044C4E00038AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165C1252596A10CA31AD1734 /* Pods-Azkari.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Azkari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deepo.Azkari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE21EDB27044C4D00038AF3 /* Build configuration list for PBXProject "Azkari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE21EF227044C4E00038AF3 /* Debug */,
+				1BE21EF327044C4E00038AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE21EF427044C4E00038AF3 /* Build configuration list for PBXNativeTarget "Azkari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE21EF527044C4E00038AF3 /* Debug */,
+				1BE21EF627044C4E00038AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BE21ED827044C4D00038AF3 /* Project object */;
+}
